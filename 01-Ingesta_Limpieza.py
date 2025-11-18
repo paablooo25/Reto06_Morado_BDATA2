@@ -7,7 +7,7 @@ import os
 
 # Load
 path_datos = os.path.join('Datos','Originales')
-filename = os.path.join(path_datos,'titanic.csv')
+filename = os.path.join(path_datos,'cancellation_data_for_mondragon_unibertsitatea_2024.csv')
 df = ppr.read_data(filename)
 #print(df.head())
 
